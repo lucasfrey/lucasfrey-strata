@@ -5,34 +5,25 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
+import thumb01 from '../assets/images/thumbs/drive-thumb.jpg'
+import thumb02 from '../assets/images/thumbs/mediacenter-thumb.jpg'
+import thumb03 from '../assets/images/thumbs/colorsteel-thumb.jpg'
 
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
+import full01 from '../assets/images/fulls/drive.jpg'
+import full02 from '../assets/images/fulls/mediacenter.jpg'
+import full03 from '../assets/images/fulls/colorsteel.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'Drive', description: 'Learning to drive? You\'ll need to know the official NZ Road Code. This platform got free video lessons, games and quizzes to help get your learner licence, restricted licence or full licence.'},
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'Education New Zealand - Media Center', description: 'Discover the stories and people behind New Zealand’s international education sector which prepares students for a global future.'},
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'Colorsteel', description: 'COLORSTEEL® protects the places New Zealanders live, work and play.'},
 ];
 
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "Lucas Frey - Front-end developer"
+        const siteDescription = "This is just another portfolio"
 
         return (
             <Layout>
@@ -45,13 +36,11 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>Hi.<br />I'm Lucas, I code & build
+                            user interfaces.</h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
+                        <p>From web component and responsive website to React and Javascript, check out what I have been working on recently.
+						Interested in performance optimisation, data analytics and every that can grow and improve user experience really.</p>
                     </section>
 
                     <section id="two">
@@ -63,15 +52,11 @@ class HomeIndex extends React.Component {
                             caption,
                             description
                         }))} />
-
-                        <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>
                     </section>
 
                     <section id="three">
                         <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+                        <p>Here is a form if you want to contact me.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
@@ -89,17 +74,8 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        Brooklyn, 6021 WELLLINGTON<br />
+                                        New Zealand
                                     </li>
                                 </ul>
                             </div>

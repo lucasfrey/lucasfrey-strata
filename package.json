@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "lucas-frey",
+  "description": "Lucas Frey Portfolio",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Lucas Frey",
   "dependencies": {
     "gatsby": "^2.15.14",
     "gatsby-plugin-manifest": "^2.2.16",
@@ -16,7 +16,9 @@
     "react-images": "^1.0.0"
   },
   "keywords": [
-    "gatsby"
+    "Lucas Frey",
+    "Front end developer",
+    "Wellington"
   ],
   "license": "MIT",
   "scripts": {
@@ -30,6 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/lucasfrey/lucasfrey"
   }
 }
